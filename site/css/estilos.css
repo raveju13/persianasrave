@@ -1,0 +1,297 @@
+/*utilidades*/
+.u-producto
+{
+	color: white;
+	display: block;
+	font-size: 1.2em;
+	margin: 1em 2em;
+	padding: 1em;
+	text-decoration: none;
+}
+
+.body
+{
+	background-image: url(../img/fondo.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+	
+}
+.Encabezado
+{
+	margin-bottom: 3em;
+	position: relative;
+}	
+.Encabezado-contenedorImagen
+{
+	float: left;
+	margin-left: 3em;
+	position: relative;
+}
+.Encabezado-imagen
+{
+	width: 180px;
+}
+.Encabezado-titulo
+{
+	color: black;
+	font-size: 3em;
+	margin: 1em 0 0 0;
+	padding: 2em 0 0 0;
+}
+.Encabezado-texto
+{
+	color: black;	
+	font-size: 1.5em;
+	margin: 0;
+}
+.Menu
+{	
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 50px;
+	background-color: #aacc72;
+	border-radius: 0.5em;
+	display: inline-block;
+	float: right;
+	margin: 3.5em 0 0 0;
+	position: relative;
+	top: 100%;
+	right: 15%;	
+	width: auto;	
+}
+.Menu-lista
+{
+	display: none;
+	height: auto;
+	margin: 0;
+	padding: 1em 0;
+	text-align: center;
+}
+.Menu-item
+{
+	display: inline;
+	font-size: 1.8em;
+	width: 100%;
+	margin: 1em;
+	position: relative;
+}
+.Menu-link
+{
+	color: black;
+	text-decoration: none;
+	width: 100%;
+}
+#Pull
+{
+	display: block;
+	width:auto;
+}
+#Pull:after
+{
+	content:"";
+	background: url(../img/nav-icon.png) ;
+	float: right;
+	width: 100px;
+	height: 100px;
+    display: block;
+    position: relative;
+    top: 5px;
+}
+
+.Principal
+{	
+	clear: both;
+	padding-top: 2em;
+	text-align: center;
+}
+.Principal-contenedorImagen
+{
+	display: block;
+}
+.Principal-imagen1
+{
+	display: none;
+}
+.Principal-imagen2
+{
+	display: none;
+}
+
+.Principal-link1
+{
+	background: #b7b311;
+	font-size: 2.5em;
+	position: relative;	
+}
+.Principal-link2
+{
+	background: #bc4895;
+	font-size: 2.5em;
+	position: relative;
+}
+.Principal-link3
+{
+	background: #41a5af;
+	font-size: 2.5em;
+	position: relative;
+	
+}
+.Principal-link4
+{
+	background: #9e5f35;
+	font-size: 2.5em;
+	position: relative;	
+}
+.Contenido
+{
+	background: white;
+	border: 1px solid black;
+	border-radius: 0.5em;
+	box-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+	margin: 3em 2em 1em 2em;
+	padding: 0 1em;
+	text-align:justify;
+}
+.Redes
+{
+	text-align: center;
+}
+.Redes-contenedorImagen
+{
+	display: inline-block;
+	margin: 1em;
+}
+.Redes-imagen
+{
+	border-radius: 1em;
+	width: 120px;
+}
+.Pie
+{
+	text-align: center;
+}
+.Pie-texto
+{
+	display: inline-block;
+	font-size: 2em;
+	margin: 0 0 0 2em;
+}
+
+@media only screen and (min-width: 1024px) {
+	.u-producto
+	{
+		font-size: 1em;
+		margin: 1em 2em;
+		padding: 1em;
+		text-decoration: none;
+	}
+	.Encabezado
+	{
+		margin-bottom: 1em;
+	}
+	.Encabezado-imagen
+	{
+		width: 90px;
+	}
+	.Encabezado-titulo
+	{
+		font-size: 1.8em;
+	}
+	.Encabezado-texto
+	{
+		font-size: 1.2em;
+	}
+	.Menu
+	{	
+		box-shadow: none;
+		background-color: transparent;
+		border-radius: 0;
+		float: left;
+		height: 50%;
+		margin: 0;
+		position: absolute;
+		width: 50%;
+	}
+	.Menu-lista
+	{		
+		display: inline;	
+	}
+	.Menu-item
+	{
+		display: inline;
+		margin: 0 2em;
+		top: 1em;
+	}
+	#Pull
+	{
+		display: none;
+	}
+	#Pull:after
+	{
+		display: none;
+	}
+
+	.Principal-contenedorImagen
+	{
+		display: inline-block;
+		position: relative;
+	}
+	.Principal-imagen1
+	{
+		display: block;
+		margin-bottom: 2em;
+		width: 168px;
+	}
+	.Principal-imagen2
+	{
+		display: block;
+		width: 168px;
+	}
+	.Principal-link1
+	{			
+		margin: 0;
+		position: absolute;
+		right: 0;
+		top:0;
+	}
+	.Principal-link2
+	{
+		bottom: 0;
+		margin: 0;
+		position: absolute;
+		right: 0;
+	}
+	.Principal-link3
+	{
+		
+	margin: 0;
+	position: absolute;
+	right: 0;
+	top:0;
+	}
+	.Principal-link4
+	{
+		
+	bottom: 0;
+	margin: 0;
+	position: absolute;
+	right: 0;
+	}
+	.Pie
+	{
+		text-align: center;
+	}
+	.Redes-imagen
+	{
+		width: 50px;
+	}
+	.Pie-texto
+	{
+		font-size: 1.2em;
+		text-align: center;
+		margin: 0;
+	}
+}
+
+
+
+
